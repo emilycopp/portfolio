@@ -1,6 +1,6 @@
 # Emily Copp Portfolio
 
-### [☛ copcreative.ca](https://coppcreative.ca)
+### [☛ coppcreative.ca](https://coppcreative.ca)
 
 ![](emily.jpg)
 
