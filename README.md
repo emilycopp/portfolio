@@ -4,7 +4,7 @@
 
 ![](emily.jpg)
 
-Emily Copp is a Graphic Design student at Algonquin College. She is interested in learning new things and overcoming challenges so that she can grow as a designer. She enjoy illustration and packaging.
+I am Graphic Design student at Algonquin College. I am interested in learning new things and overcoming challenges so that she can grow as a designer. I enjoy illustration and packaging.
 
 -**[mail@coppcreative.ca](mailto:emily.copp@bell.net)**
 -[Pinterest](https://www.pinterest.com/emilycopp0113/)
