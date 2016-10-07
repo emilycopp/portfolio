@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+  margin: 3em 0 0 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #87c2af;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  font-family: 'Verdana';
+  color: #483825;
+}
+
+p {
+  margin: 0;
+}
+
+.contact {
+  color: #c2decf;
+}
+
+img {
+  height: 100%;
+}
+
+.profile {
+  border-radius: 400px;
+  max-width: 200px;
+}
+
+.icon {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url("http://placehold.it/1080x500");
+  width: 100%;
+  position: relative;
+}
+
+h2 {
+  color: #87c2af;
+}
+
+.work {
+  padding-bottom: 2em;
+}
+
+footer {
+  background-color: #c2decf;
+}
