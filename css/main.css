@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+.nav {
+  background-color: #c2decf;
+}
+
 h1 {
   color: #87c2af;
   text-align: center;
@@ -16,6 +20,7 @@ body {
   text-align: center;
   font-family: 'Verdana';
   color: #483825;
+  background-color: #f3f8f5;
 }
 
 p {
@@ -60,4 +65,8 @@ h2 {
 
 footer {
   background-color: #c2decf;
+}
+
+.project {
+  height: 200px;
 }
