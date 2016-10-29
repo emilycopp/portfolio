@@ -1,0 +1,27 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Emily Copp <coppcreative.ca>
+Site: http://coppcreative.ca
+GitHub: https://github.com/emilycopp
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Sublime Text
+
+## Hosting
+
+- Hover <http://hover.com>
+-CloudFlare <https://www.cloudflare.com/>

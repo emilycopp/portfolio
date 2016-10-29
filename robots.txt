@@ -1,0 +1,3 @@
+Sitemap: https://coppcreative.ca/sitemap.xml
+
+User-agent: *
