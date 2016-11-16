@@ -1,17 +1,23 @@
 - title: "Minion Toy Packaging"
-	image: "images/minion.jpg"
+  link: "minion.html"
+  image: "images/minion.jpg"
 
 - title: "Café Craze"
-	image: "images/popcicle.jpg"
+  link: "brosmind.html"
+  image: "images/popcicle.jpg"
 
 - title: "Cheo Annual Report"
-	image: "images/teddy.jpg"
+  link: "cheo.html"
+  image: "images/teddy.jpg"
 
 - title: "George"
-	image: "images/george.jpg"
+  link: "george.html"
+  image: "images/george.jpg"
 
 - title: "Blowing Bubbles"
-	image: "images/animation.jpg"
+  link: "bubbles.html"
+  image: "images/animation.jpg"
 
-- title: "Find My Pet App"
-	image: "images/pet-app.jpg"
+- title: "Ice Cream Product Line"
+  link: "isometric.html"
+  image: "images/snowman.jpg"

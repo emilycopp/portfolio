@@ -2,49 +2,23 @@
 layout: default
 ---
 
-  <main>
-    <div id="about" class="banner pad-b-2 unit xs-1 s-1 m-1 l-1">
-      <h1>Emily Copp</h1>
-      <p class="pad-b-2 unit xs-1 s-1 m-1 l-1 unit-l-centered">I am a third year Graphic Design student at Algonquin College. I am interested in learning new things and overcoming challenges so that I can grow as a designer. I enjoy illustration and packaging.
-      </p>
-    </div>
-  </div>
+<main class="grid">
 
-  <div class="grid">
+  <p class="unit xs-1 s-1 m-1 l-1 about">I am a third year Graphic Design student at Algonquin College. I am interested in learning new things and overcoming challenges so that I can grow as a designer. I enjoy illustration, branding and packaging.</p>
 
-    <h2 id="portfolio" class="unit xs-1 s-1 m-1 l-1">Portfolio</h2>
+
+   <h2 class="unit xs-1 s-1 m-1 l-1">Work</h2>
+  <div class="grid margin">
 
     <div>
       {% for work in site.data.portfolio-work %}
-      <div class="work unit xs-1 s-1 m-1-3 l-1-3">
-        <a href="minion.html">
-          <img class="project" src="{{work.image}}" alt="">
+      <div class="unit xs-1 s-1 m-1-2 l-1">
+        <a href="{{site.baseurl}}/{{work.link}}">
+        <img class="island-1-2" src="{{site.baseurl}}{{work.image}}">
         </a>
-        <p>{{work.title}}</p>
       </div>
       {% endfor %}
     </div>
 
   </div>
-
-  <footer id="contact" class="grid">
-    <h2 class="unit xs-1 s-1 m-1 l-1">Contact</h2>
-    <p class="unit xs-1 s-1 m-1 l-1">(613) 489-2735</p>
-    <p class="pad-b-2 unit xs-1 s-1 m-1 l-1">emily.copp@bell.net</p>
-    <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3">
-      <a href="https://www.pinterest.com/emilycopp0113/">
-        <img class="img-flex icon" src="images/pinterest.png" alt="Pinterest">
-      </a>
-    </div>
-    <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3">
-      <a href="https://www.behance.net/EmilyCopp">
-        <img class="img-flex icon" src="images/behance.png" alt="Behance">
-      </a>
-    </div>
-    <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3">
-      <a href="https://www.linkedin.com/in/emily-copp-49a608113?trk=nav_responsive_tab_profile">
-        <img class="img-flex icon" src="images/linkedin.png" alt="LinkedIn">
-      </a>
-    </div>
-  </footer>
 </main>
