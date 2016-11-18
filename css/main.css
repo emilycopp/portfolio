@@ -64,16 +64,37 @@ img {
   width: 100%;
 }
 
-.title {
-  opacity: 0;
-  color: #87c2af;
-  position: relative;
-  bottom: 100px;
-  left: 0;
+.image {
+  overflow: hidden;
 }
 
-.title:hover {
-  opacity: 1;
+.container {
+  overflow: hidden;
+  position: relative;
+}
+
+.title-container {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateY(100%);
+  background-color: rgba(0,0,0,0.5);
+}
+
+.title {
+  color: #87c2af;
+}
+
+.container:hover .title-container {
+  transform: translateY(0);
+}
+
+.container .image {
+  width: inherit;
+  height: inherit;
 }
 
 footer {
