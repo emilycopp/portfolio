@@ -61,6 +61,10 @@
   position: relative;
 }
 
+.margin {
+  margin: 0 .5em;
+}
+
 .unit-xs-hidden {
   display: none;
   visibility: hidden;
@@ -149,6 +153,10 @@
 
 @media only screen and (min-width: 38em) {
 
+.margin {
+  margin: 0 3em;
+}
+
   .unit-m-hidden {
     display: none;
     visibility: hidden;
@@ -176,7 +184,7 @@
 
   .unit-m-1-2,
   .m-1-2 {
-    width: 49.94%;
+    width: 49.93%;
   }
 
   .unit-offset-m-1-2 {

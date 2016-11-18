@@ -4,10 +4,10 @@
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   <meta charset="utf-8">
   <title>Emily Copp Design</title>
   <meta name="description" content="Emily Copp Portfolio: a showcase of some of the work by Emily Copp.">
@@ -39,29 +39,31 @@
     {{content}}
   </main>
 
-  <footer class="grid" id="contact">
-    <div class="unit xs-1 s-1 m-1 l-1">
+  <footer class="grid grid-middle padding" id="contact">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
       <p>(613)489-2735<br>
       mail@coppcreative.ca</p>
     </div>
 
-    <ul class="unit xs-1 s-1 m-1 l-1 btm-nav">
-      <li>
-      <a href="">
-          <img src="images/pinterest.png" alt="Pinterest">
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <img src="images/linkedin.png" alt="LinkedIn">
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <img src="images/behance.png" alt="Behance">
-        </a>
-      </li>
-    </ul>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 btm-nav">
+      <ul class="social">
+        <li>
+        <a href="https://www.pinterest.com/emilycopp0113/">
+            <img src="{{site.baseurl}}/images/pinterest.png" alt="Pinterest">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/emily-copp-49a608113">
+            <img src="{{site.baseurl}}/images/linkedin.png" alt="LinkedIn">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.behance.net/EmilyCopp">
+            <img src="{{site.baseurl}}/images/behance.png" alt="Behance">
+          </a>
+        </li>
+      </ul>
+    </div>
   </footer>
 
 </body>
