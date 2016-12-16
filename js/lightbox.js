@@ -5,7 +5,7 @@ var $btnClose = $('.btn-close');
 
 $container.on('touchstart click', 'a', function (e) {
   var big = $(this).attr('href');
-  $lbImg.attr('src', big);
+  $lbImg.attr('src', 'https://emilycopp.github.io' + big);
   $lb.attr('data-state', 'visible');
   $('html body').addClass('no-scroll');
   e.preventDefault();
